@@ -35,19 +35,25 @@ Make sure you have Python ≥ 3.8 installed. Then install the required dependenc
 
 ---
 
-# 📁 Project Structure
-bash
-Copy
-Edit
+## 📁 Project Structure
+
+- bash
+- Copy
+- Edit
 Ethnicity-Detector-App/
-│
-├── model/
-│   ├── res34_fair_align_multi_4_20190809.pt     # (Deleted from repo history to reduce size)
-│   └── res34_fair_align_multi_7_20190809.pt     # (Deleted from repo history)
-│
-├── app.py                # Main Streamlit app
-├── utils.py              # Preprocessing and prediction utilities
-├── .gitignore
-└── README.md
+
 ---
 
+## 🧠 How It Works
+
+ Image is uploaded through the Streamlit UI.
+ OpenCV detects face regions in the image.
+ Each face is passed through the FairFace ResNet-34 model.
+ The model predicts ethnicity labels such as:
+- White
+- Black
+- East Asian
+- Southeast Asian
+- Indian
+- Middle Eastern
+- Latino-Hispanic
