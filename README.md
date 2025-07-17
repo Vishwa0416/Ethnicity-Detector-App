@@ -23,7 +23,6 @@ A lightweight, Streamlit-based web app that uses the **FairFace deep learning mo
 
 ![App Demo](https://user-images.githubusercontent.com/your-gif-or-image-link.gif)
 
-> Replace the above image link with a gif or screenshot of your app in action.
 
 ---
 
