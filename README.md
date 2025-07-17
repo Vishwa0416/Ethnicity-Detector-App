@@ -32,5 +32,22 @@ A lightweight, Streamlit-based web app that uses the **FairFace deep learning mo
 
 Make sure you have Python ≥ 3.8 installed. Then install the required dependencies:
 
-```bash
-pip install torch torchvision streamlit pillow opencv-python numpy
+
+---
+
+# 📁 Project Structure
+bash
+Copy
+Edit
+Ethnicity-Detector-App/
+│
+├── model/
+│   ├── res34_fair_align_multi_4_20190809.pt     # (Deleted from repo history to reduce size)
+│   └── res34_fair_align_multi_7_20190809.pt     # (Deleted from repo history)
+│
+├── app.py                # Main Streamlit app
+├── utils.py              # Preprocessing and prediction utilities
+├── .gitignore
+└── README.md
+---
+
