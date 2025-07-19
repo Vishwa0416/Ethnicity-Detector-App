@@ -17,12 +17,6 @@ A lightweight, Streamlit-based web app that uses the **FairFace deep learning mo
 - 🌐 **Web-Based Interface**: Clean and interactive UI powered by Streamlit.
 - 🔧 **Future-Ready**: Modular code structure — easily extendable to include age and height estimation using additional models.
 
----
-
-## 📸 Demo
-
-![App Demo](https://user-images.githubusercontent.com/your-gif-or-image-link.gif)
-
 
 ---
 
